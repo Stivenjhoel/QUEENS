@@ -1,0 +1,28 @@
+<!DOCTYPE html>
+<html lang="en">
+<head>
+    <meta charset="UTF-8">
+    <meta name="viewport" content="width=device-width, initial-scale=1.0">
+    <title>Video - Queen's Team</title>
+</head>
+<body>
+    <header>
+        <h1>Queen's Team - Video</h1>
+    </header>
+
+    <!-- Sección de Video -->
+    <main>
+        <section>
+            <h2>Disfruta del Video</h2>
+            <iframe id="videoPlayer" width="560" height="315" frameborder="0" allow="autoplay; encrypted-media" allowfullscreen></iframe>
+        </section>
+    </main>
+
+    <script>
+        // Obtener el parámetro de la URL y configurar el reproductor
+        const urlParams = new URLSearchParams(window.location.search);
+        const videoUrl = urlParams.get('video');
+        document.getElementById('videoPlayer').src = videoUrl;
+    </script>
+</body>
+</html>

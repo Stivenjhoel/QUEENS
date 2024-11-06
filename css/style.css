@@ -1,0 +1,127 @@
+/* Estilos generales */
+body {
+    background-image: url('https://wallpapers.com/images/hd/queen-hot-space-album-cover-byha6oa7fz6tirl9.jpg'); /* Cambia esta URL por la de tu fondo */
+    background-size: cover;
+    background-attachment: fixed;
+    color: #f5e8a6; /* Amarillo pálido y elegante para el texto */
+    font-family: 'Georgia', serif;
+    text-align: center;
+    margin: 0;
+    padding: 0;
+}
+
+/* Encabezado */
+header {
+    padding: 20px;
+    background-color: rgba(0, 0, 0, 0.8); /* Fondo negro semi-transparente */
+    box-shadow: 0 4px 8px rgba(0, 0, 0, 0.5); /* Sombra sutil */
+}
+
+header h1 {
+    font-size: 3em;
+    color: #ffdd57; /* Dorado brillante */
+    letter-spacing: 2px;
+    font-weight: bold;
+    margin: 0;
+    text-shadow: 2px 2px 5px rgba(0, 0, 0, 0.7);
+}
+
+/* Navegación */
+nav ul {
+    list-style-type: none;
+    padding: 0;
+    margin: 0;
+    background-color: rgba(0, 0, 0, 0.85);
+    display: flex;
+    justify-content: center;
+    box-shadow: 0 2px 5px rgba(0, 0, 0, 0.4);
+}
+
+nav ul li {
+    padding: 15px 25px;
+}
+
+nav ul li a {
+    text-decoration: none;
+    color: #f5e8a6;
+    font-size: 1.3em;
+    transition: color 0.3s;
+}
+
+nav ul li a:hover {
+    color: #ffdd57;
+    text-shadow: 1px 1px 4px rgba(255, 215, 87, 0.6);
+}
+
+/* Sección Principal */
+main section {
+    padding: 25px;
+    margin: 25px auto;
+    background-color: rgba(30, 30, 30, 0.85); /* Fondo oscuro elegante */
+    border-radius: 10px;
+    max-width: 800px;
+    box-shadow: 0 4px 8px rgba(0, 0, 0, 0.5);
+}
+
+main section p {
+    font-size: 1.1em;
+    line-height: 1.6;
+}
+
+/* Títulos de Secciones */
+h2 {
+    color: #ffdd57; /* Dorado */
+    font-size: 2.5em;
+    margin: 0 0 15px;
+    text-shadow: 2px 2px 5px rgba(0, 0, 0, 0.5);
+}
+
+/* Galería de imágenes */
+.gallery img {
+    width: 100%;
+    max-width: 450px;
+    border-radius: 10px;
+    margin: 20px 0;
+    border: 3px solid #f5e8a6; /* Amarillo pálido */
+    box-shadow: 0 6px 10px rgba(0, 0, 0, 0.5);
+}
+
+/* Reproductores */
+audio, video {
+    margin: 25px 0;
+    border: 2px solid #ffdd57; /* Borde dorado */
+    border-radius: 8px;
+    box-shadow: 0 4px 6px rgba(0, 0, 0, 0.4);
+    max-width: 90%;
+}
+
+/* Lista de eventos */
+section ul {
+    list-style-type: none;
+    padding: 0;
+}
+
+section ul li {
+    padding: 8px;
+    font-size: 1.2em;
+    color: #f5e8a6;
+}
+
+/* Pie de página */
+footer {
+    padding: 15px;
+    background-color: rgba(0, 0, 0, 0.85);
+    color: #f5e8a6;
+    font-size: 0.9em;
+    text-shadow: 1px 1px 4px rgba(0, 0, 0, 0.7);
+}
+
+/* Estilos adicionales */
+a {
+    color: #f5e8a6;
+}
+
+a:hover {
+    color: #ffdd57;
+    text-shadow: 1px 1px 4px rgba(255, 215, 87, 0.7);
+}
